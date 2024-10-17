@@ -1,0 +1,10 @@
+
+/* The following CSS selector (rule) emoves underlines from all hyperlinks. Do not do this.*/
+a  {  
+    text-decoration: none; 
+  }
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
