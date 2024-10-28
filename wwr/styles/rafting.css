@@ -1,10 +1,163 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-size: 16px;
+  --padding: 10px;
+}
 
-/* The following CSS selector (rule) emoves underlines from all hyperlinks. Do not do this.*/
-a  {  
-    text-decoration: none; 
-  }
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+header img{
+  width: 60px;
+  height: 60px;
+  
+}
+nav ul {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+}
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #088178;
+}
+
+#hero {
+  position: relative;
+  margin-top: 10px;
+}
+#hero img {
+  width: 100%;
+}
+.hero-img {
+  height: 400px;
+}
+#hero article .img-bckgd {
+  width: 150px;
+  float: right;
+}
+article {
+  position: absolute;
+  top: 150px;
+  width: 80%;
+  left: 50px;
+  right: 0;
+  background-color: rgb(4, 4, 59, 0.6);
+  padding: 1rem;
+}
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  font-family: "josefin sans", serif;
+  font-size: 48px;
+}
+article p {
+  margin: 0;
+  color: aliceblue;
+}
+h2 {
+  text-align: center;
+  align-items: center;
+  font-family: "josefin sans", serif;
+  font-size: 48px;
+  color: black;
+  margin-left: 0;
+  margin-top: 40px;
+}
+span {
+  display: block;
+}
+.history {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.history_image {
+  width: 35%;
+  height: auto;
+  margin: 10px;
+}
+.p-history {
+  justify-content: flex-start;
+  margin: 0;
+  width: 30%;
+}
+.adventures {
+  display: flex;
+  width: 100%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.adventures img {
+  width: 100px;
+  margin: 20px;
+}
+.adventures-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+.adventures-home img {
+  width: 100px;
+}
+.footer-home {
+  position: absolute;
+  top: 2900px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 600px 1fr 1fr;
+  margin-top: 80px;
+  background-color: #e3e6f3;
+  padding: 20px;
+}
+
+footer p {
+  align-items: center;
+  text-align: center;
+}
+footer img {
+  width: 20px;
+  margin-top: 10px;
+}
+footer a:hover {
+  color: inherit !important ;
+}
