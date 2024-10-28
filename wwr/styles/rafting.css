@@ -24,12 +24,9 @@ header {
   top: 0;
   left: 0;
 }
-
-header img{
+header img {
   width: 60px;
-  height: 60px;
-  
-}
+   height: 60px;}
 nav ul {
   display: flex;
   padding: 20px;
@@ -138,16 +135,13 @@ span {
 .adventures-home img {
   width: 100px;
 }
-.footer-home {
-  position: absolute;
-  top: 2900px;
-}
+
 footer {
-  display: grid;
-  grid-template-columns: 600px 1fr 1fr;
+  display: flex;
   margin-top: 80px;
   background-color: #e3e6f3;
   padding: 20px;
+  justify-content: space-between;
 }
 
 footer p {
@@ -155,8 +149,14 @@ footer p {
   text-align: center;
 }
 footer img {
-  width: 20px;
-  margin-top: 10px;
+  width: 30px;
+}
+nav.sociallinks {
+  display: flex !important;
+  text-decoration: none;
+}
+nav.sociallinks a {
+  padding: 20px;
 }
 footer a:hover {
   color: inherit !important ;
