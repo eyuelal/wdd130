@@ -19,10 +19,11 @@ header {
   top: 0;
   left: 0;
 }
-header img{
+header img {
   width: 40px;
   height: 40px;
 }
+
 nav ul {
   display: flex;
   padding: 20px;
@@ -77,6 +78,7 @@ footer p {
 }
 footer img {
   width: 30px;
+  height: 30px;
 }
 nav.sociallinks {
   display: flex !important;
@@ -84,9 +86,6 @@ nav.sociallinks {
 }
 nav.sociallinks a {
   padding: 20px;
-}
-footer a:hover {
-  color: inherit !important ;
 }
 
 #contact-details {
@@ -99,10 +98,7 @@ footer a:hover {
 #contact-details .details {
   width: 40%;
 }
-#contact-details .details span,
-#form-details form span {
-  font-size: 12px;
-}
+
 #contact-details .details h2,
 #form-details form h2 {
   font-size: 26px;
@@ -161,7 +157,7 @@ footer a:hover {
   padding: 12px 15px;
   outline: none;
   margin-bottom: 20px;
-  border-radius: 1px solid #e1e1e1;
+  border-radius: 2px;
 }
 #form-details form button {
   background-color: #088178;
