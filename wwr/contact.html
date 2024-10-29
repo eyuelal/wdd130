@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Embark on an exhilarating adventure with Life adventures company, where our rafting site brings the perfect blend of excitement and serenity."
     />
-    <meta name="author" content="Fabrice Ndabitezamaso" />
-    <title>Contact Us Page | Fabrice Ndabitezamaso</title>
+    <meta name="author" content="Eyuel Temesgen" />
+    <title>Contact Us Page | Eyuel Temesgen</title>
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -17,13 +17,13 @@
   </head>
   <body>
     <header>
-      <img src="images/Rapids.jpg" alt="" />
+      <img src="images/rapids.jpg" alt="" />
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a class="active" href="#">About</a></li>
-          <li><a href="#">Trips</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -35,22 +35,24 @@
           <h2>Visit one of our agency locationcs or contact us today</h2>
           <h3>Head Office</h3>
           <div>
-            <li>
-              <i class="fal fa-map"></i>
-              <p>26506 Norden,UtlandshÖn 7</p>
-            </li>
-            <li>
-              <i class="far fa-envelope"></i>
-              <p>contact@example.com</p>
-            </li>
-            <li>
-              <i class="fas fa-phone-alt"></i>
-              <p>+49 1747388664</p>
-            </li>
-            <li>
-              <i class="far fa-clock"></i>
-              <p>Monday to Saturday: 9.00am to 16 pm</p>
-            </li>
+            <ul>
+              <li>
+                <i class="fal fa-map"></i>
+                <p>26506 Norden,UtlandshÖn 7</p>
+              </li>
+              <li>
+                <i class="far fa-envelope"></i>
+                <p>contact@example.com</p>
+              </li>
+              <li>
+                <i class="fas fa-phone-alt"></i>
+                <p>+49 1747388664</p>
+              </li>
+              <li>
+                <i class="far fa-clock"></i>
+                <p>Monday to Saturday: 9.00am to 16 pm</p>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="map">
@@ -60,25 +62,49 @@
         </div>
       </section>
       <section id="form-details">
-        <form action="">
+        <form action="#">
           <span>LEAVE A MESSAGE</span>
           <h2>We love to hear from you</h2>
-          <input type="text" placeholder="Your Name" />
-          <input type="text" placeholder="E-mail" />
-          <input type="text" placeholder="Subject" />
+          <label for="name">Your Name:</label>
+          <input id="name" type="text" placeholder="Your Name" />
+          <label for="E-mail"> Your E-mail</label>
+          <input id="email" type="text" placeholder="E-mail" />
+          <label for="Subject">Subject</label>
+          <input id="subject" type="text" placeholder="Subject" />
+          <input id="familie" type="checkbox" name="vehicle1" value="Bike" />
+          <label for="vehicle1"> Are you Married</label><br />
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="price">Price</label><br />
+           
+          <input
+            type="radio"
+            id="css"
+            name="fav_language"
+            value="CSS"
+            checked="checked"
+          />
+            <label for="css">Booking </label><br />
+           
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
 
           <textarea
-            name=""
-            id=""
+            name="message"
+            id="message"
             cols="30"
             rows="10"
             placeholder="Your Message"
           ></textarea>
-          <button class="normal">Submit</button>
+          <button class="normal" type="submit">Submit</button>
         </form>
       </section>
     </main>
     <footer>
+      <img src="images/rapids.jpg" alt="">
       <p>©2024 🌴 Life adventures 🌴 Eyuel Temesegen 🌴 WDD 130</p>
       <nav class="sociallinks">
         <a href="https://facebook.com">
