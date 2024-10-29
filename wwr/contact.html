@@ -65,42 +65,35 @@
         <form action="#">
           <span>LEAVE A MESSAGE</span>
           <h2>We love to hear from you</h2>
+      
           <label for="name">Your Name:</label>
-          <input id="name" type="text" placeholder="Your Name" />
-          <label for="email"> Your E-mail</label>
-          <input id="email" type="text" placeholder="E-mail" />
-          <label for="subject">Subject</label>
-          <input id="subject" type="text" placeholder="Subject" />
-          <input id="familie" type="checkbox" name="vehicle1" value="Bike" />
-          <label for="familie"> Are you Married</label><br />
-          <input type="radio" id="html" name="fav_language" value="HTML" />
-            <label for="price">Price</label><br />
-           
-          <input
-            type="radio"
-            id="price"
-            name="fav_language"
-            value="CSS"
-            checked="checked"
-          />
-            <label for="book">Booking </label><br />
-           
-          <input
-            type="radio"
-            id="book"
-            name="fav_language"
-            value="JavaScript"
-          />
-
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-          ></textarea>
-          <button class="normal" type="submit">Submit</button>
-        </form>
+          <input id="name" type="text" placeholder="Your Name" required />
+      
+          <label for="email">Your E-mail:</label>
+          <input id="email" type="email" placeholder="E-mail" required />
+      
+          <label for="subject">Subject:</label>
+          <input id="subject" type="text" placeholder="Subject" required />
+      
+          <input id="married" type="checkbox" name="married" value="Yes" />
+          <label for="married">Are you married?</label><br />
+      
+          <p>Choose your preference:</p>
+          <input type="radio" id="price" name="preference" value="Price" />
+          <label for="price">Price</label><br />
+      
+          <input type="radio" id="booking" name="preference" value="Booking" checked />
+          <label for="booking">Booking</label><br />
+      
+          <input type="radio" id="quality" name="preference" value="Quality" />
+          <label for="quality">Quality</label><br />
+      
+          <label for="message">Your Message:</label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      
+          <button class="normal" type="submit">Send Message</button>
+      </form>
+      
       </section>
     </main>
     <footer>
@@ -116,6 +109,9 @@
         <a href="https://instagram.com">
           <img src="images/instagram.jpg" alt="Instagram" />
         </a>
+        <a href="#"><img src="#" alt=""></a>
+        <a href="#"><img src="#" alt=""></a>
+        <a href="#"><img src="#" alt=""></a>
       </nav>
     </footer>
   </body>
