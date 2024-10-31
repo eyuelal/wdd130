@@ -143,3 +143,27 @@ nav.sociallinks a {
   background-color: #088178;
   color: #fff;
 }
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid var(--primary-color-light);
+  color: var(--secondary-color);
+}
+
+#contact-callout a {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+#experiences {
+  padding-top: 270px;
+}
+#contact-callout {
+  width: 900px;
+}
+.section-contact {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
